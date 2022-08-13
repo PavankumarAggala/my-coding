@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int i,j,k,n;
+    scanf("%d",&n);
+    char ch='A',cha='a';
+    for(i=1;i<=n;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%c%c\t",ch,cha);
+            ch++;
+            cha++;
+        }
+        printf("\n");
+    }
+       
+    return 0;
+}
